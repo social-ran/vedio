@@ -14,7 +14,6 @@ actions:
       - name: time
         description: time of vedio
         required: true
-        multiline: false
         example: number(2)
         schema:
           type: number
