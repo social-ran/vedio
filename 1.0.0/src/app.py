@@ -10,7 +10,7 @@ class Vedio(AppBase):
 
         super().__init__(redis, logger, console_logger)
 
-    async def watch_vedio(self, time):
+    async def watch_vedio(self, TIME):
         try:
             from selenium import webdriver
             from selenium.webdriver.common.keys import Keys
@@ -30,7 +30,7 @@ class Vedio(AppBase):
         # browser.execute_script("document.body.style.zoom='0.5'")#缩放0.5
         browser.set_window_size(1920, 1080)
         browser.maximize_window()
-        time.sleep(time)
+        time.sleep(TIME)
         browser.quit()
         return "OK!!"
 
