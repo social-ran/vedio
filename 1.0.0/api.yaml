@@ -11,7 +11,7 @@ actions:
   - name: watch_vedio
     description: watch the Vedio
     parameters:
-      - name: time
+      - name: TIME
         description: time of vedio
         required: true
         example: number(2)
