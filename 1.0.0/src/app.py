@@ -10,7 +10,7 @@ class Vedio(AppBase):
 
         super().__init__(redis, logger, console_logger)
 
-    async def watchVedio(self, time):
+    async def watch_vedio(self, time):
         try:
             from selenium import webdriver
             from selenium.webdriver.common.keys import Keys
