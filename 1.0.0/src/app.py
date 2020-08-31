@@ -26,7 +26,7 @@ class Vedio(AppBase):
         browser = webdriver.Chrome(chrome_options=option)
         # browser=webdriver.Chrome()
 
-        browser.get("http://10.245.142.98:83/test1.html")
+        browser.get("http://10.245.142.98:82")
         # browser.execute_script("document.body.style.zoom='0.5'")#缩放0.5
         browser.set_window_size(1920, 1080)
         browser.maximize_window()
