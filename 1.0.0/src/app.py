@@ -32,7 +32,7 @@ class Vedio(AppBase):
         browser.maximize_window()
         time.sleep(TIME)
         browser.quit()
-        return "OK!!"
+        return "vedio"
 
 
 if __name__ == "__main__":
