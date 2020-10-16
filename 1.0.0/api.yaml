@@ -11,6 +11,13 @@ actions:
   - name: watch_vedio
     description: watch the Vedio
     parameters:
+      - name: myurl
+        description: url
+        required: true
+        multiline: false
+        example: "http://10.245.142.98:82/index.html"
+        schema:
+          type: string
       - name: TIME
         description: time of vedio
         required: true
